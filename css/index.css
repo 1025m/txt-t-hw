@@ -33,24 +33,75 @@ body.dark {
   --primary-button-color: #111;
   --delete-button-borders: #e76f7b;
   --font-color-delete: #e76f7b;
+  --font-color-delete:#e76f7b}@font-face{font-family:Hindi_Font;
+    src:url(../fonts/Hindi_Type.ttf)}@font-face{font-family:FZJLS_Font;
+    src:url(../fonts/fzjls.woff2)}@font-face{font-family:MNLH_Font;
+    src:url(../fonts/mnlh.woff2)}@font-face{font-family:GXS_Font;
+    src:url(../fonts/GXS.woff2)}@font-face{font-family:HYPingAnXingJ_Font;
+    src:url(../fonts/HYPingAnXingJ.woff2)}@font-face{font-family:HYWtH_Font;
+    src:url(../fonts/HYWtH.woff2)}@font-face{font-family:MLingWaiFHK_Font;
+    src:url(../fonts/MLingWaiFHK.woff2)}@font-face{font-family:WuJiaRui_Font;
+    src:url(../fonts/WuJiaRui.woff2)}@font-face{font-family:Liguofu_Font;
+    src:url(../fonts/liguofu.woff2)}*{box-sizing:border-box}body{background-color:var(--background-primary);
+    color:var(--font-color-primary);font-family:var(--font-family-primary);
+
 }
 @font-face {
-  font-family: 'Hindi_Font';
-  src: url(../fonts/Hindi_Type.ttf);
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpZA.ttf) format('truetype');
 }
-
-src:url(../fonts/Hindi_Type.ttf)}@font-face{font-family:FZJLS_Font;
-src:url(../fonts/fzjls.woff2)}@font-face{font-family:MNLH_Font;
-src:url(../fonts/mnlh.woff2)}@font-face{font-family:GXS_Font;
-src:url(../fonts/GXS.woff2)}@font-face{font-family:HYPingAnXingJ_Font;
-src:url(../fonts/HYPingAnXingJ.woff2)}@font-face{font-family:HYWtH_Font;
-src:url(../fonts/HYWtH.woff2)}@font-face{font-family:MLingWaiFHK_Font;
-src:url(../fonts/MLingWaiFHK.woff2)}@font-face{font-family:WuJiaRui_Font;
-src:url(../fonts/WuJiaRui.woff2)}@font-face{font-family:Liguofu_Font;
-src:url(../fonts/liguofu.woff2)}*{box-sizing:border-box}body{background-color:var(--background-primary);
-color:var(--font-color-primary);font-family:var(--font-family-primary);
-
-
+@font-face {
+  font-family: 'Homemade Apple';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/homemadeapple/v22/Qw3EZQFXECDrI2q789EKQZJob0x6XH0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Liu Jian Mao Cao';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/liujianmaocao/v20/845DNN84HJrccNonurqXILGpvCOoTe3fLA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Long Cang';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/longcang/v17/LYjAdGP8kkgoTec8zkRQqnov.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ma Shan Zheng';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXadMPmCA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'ZCOOL QingKe HuangYou';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/zcoolqingkehuangyou/v15/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mR4jPe4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Zhi Mang Xing';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/zhimangxing/v17/f0Xw0ey79sErYFtWQ9a2rq-g4aAneQ.ttf) format('truetype');
+}
 
 
 
