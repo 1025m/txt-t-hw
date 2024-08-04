@@ -153,7 +153,7 @@
                   style="font-size: 0.9rem; margin-top: 5px;"
                   class="draw-button"
                 >
-                  Draw <small>(Beta)</small>
+                  在线手写稿 <small>(Draw)</small>
                 </button>
               </div>
             </div>
@@ -161,21 +161,18 @@
             <div class="customization-col">
               <!-- Handwriting Font -->
               <div style="padding: 5px 0px 5px 0px;">
-                <b>Customizations</b> <small>(Optional)</small>
+                <b>定制样式（Customizations）</b> <small>可选(Optional)</small>
                 <p style="font-size: 0.8rem;">
-                  <em
-                    >Note: Few changes may reflect only in the generated image
-                    and not in the preview</em
-                  >
+                  <em>注意：部分更改可能只反映在生成的图像中，而不会呈现在预览中</em>
                 </p>
               </div>
               <fieldset>
-                <legend>Handwriting Options</legend>
+                <legend>手写选项(Handwriting Options)</legend>
 
                 <div class="category-grid">
                   <div>
                     <label class="block" for="handwriting-font"
-                      >Handwriting Font</label
+                      >手写字体(Handwriting Font)</label
                     >
                     <select id="handwriting-font">
                       <option
@@ -205,12 +202,12 @@
                   </div>
                   <div class="upload-handwriting-container">
                     <label class="block" for="font-file"
-                      >Upload your handwriting font <small>(Beta)</small>&nbsp;
-                      <a
+                      >上传你的手写字体<small>(Upload your handwriting font) </small>&nbsp;
+                      <!-- a
                         style="font-size: 1.1rem;"
                         title="How to add your own handwriting"
                         href="#how-to-add-handwriting"
-                      >
+                     -- >
                         &#9432;
                       </a>
                     </label>
@@ -221,11 +218,11 @@
 
               <!-- Pen ink color, Font size, Vertical position text, Word Spacing -->
               <fieldset>
-                <legend>Page & Text Options</legend>
+                <legend>页面和文字选项(Page & Text Options)</legend>
 
                 <div class="category-grid">
                   <div class="postfix-input" data-postfix="pt">
-                    <label for="font-size">Font Size</label>
+                    <label for="font-size">字体大小</label>
                     <input
                       id="font-size"
                       min="0"
@@ -235,42 +232,38 @@
                     />
                   </div>
                   <div>
-                    <label class="block" for="ink-color">Ink Color</label>
-                    <select id="ink-color">
-                      <option default value="#000f55">Blue</option>
-                      <option value="black">Black</option>
-                      <option value="#ba3807">Red</option>
-                    </select>
+                    <label class="block" for="ink-color">字体颜色</label>
+                    <input type="color" id="ink-color" value="#000f55" style="height: 42px;padding: 6px;">
                   </div>
                   <div>
-                    <label class="block" for="page-size">Page Size</label>
+                    <label class="block" for="page-size">页面大小</label>
                     <select id="page-size">
                       <option default value="a4">A4 &nbsp;</option>
                     </select>
                   </div>
                   <div>
-                    <label class="block" for="page-effects">Effects</label>
+                    <label class="block" for="page-effects">效果</label>
                     <select id="page-effects">
-                      <option default value="shadows">Shadows</option>
-                      <option value="scanner">Scanner</option>
-                      <option value="no-effect">No Effect</option>
+                      <option default value="shadows">阴影</option>
+                      <option value="scanner">扫描</option>
+                      <option value="no-effect">无效果</option>
                     </select>
                   </div>
                   <div>
-                    <label class="block" for="resolution">Resolution</label>
+                    <label class="block" for="resolution">分辨率</label>
                     <select id="resolution">
-                      <option value="0.8">Very Low</option>
-                      <option value="1">Low</option>
-                      <option selected value="2">Normal</option>
-                      <option value="3">High</option>
-                      <option value="4">Very High</option>
+                      <option value="0.8">极低</option>
+                      <option value="1">低</option>
+                      <option selected value="2">正常</option>
+                      <option value="3">高清</option>
+                      <option value="4">超清</option>
                     </select>
                   </div>
                 </div>
               </fieldset>
 
               <fieldset>
-                <legend>Spacing Options</legend>
+                <legend>间距选项(Spacing Options)</legend>
 
                 <div class="category-grid">
                   <div class="postfix-input" data-postfix="px">
