@@ -203,11 +203,11 @@
                   <div class="upload-handwriting-container">
                     <label class="block" for="font-file"
                       >上传你的手写字体<small>(Upload your handwriting font) </small>&nbsp;
-                      <!-- a
+                      <a
                         style="font-size: 1.1rem;"
-                        title="How to add your own handwriting"
-                        href="#how-to-add-handwriting"
-                     -- >
+                        title="Upload your handwriting font"
+                        href="#Upload your handwriting font"
+                       >
                         &#9432;
                       </a>
                     </label>
@@ -267,11 +267,11 @@
 
                 <div class="category-grid">
                   <div class="postfix-input" data-postfix="px">
-                    <label for="top-padding">Vertical Position</label>
+                    <label for="top-padding">顶部边距</label>
                     <input id="top-padding" min="0" value="5" type="number" />
                   </div>
                   <div class="postfix-input" data-postfix="px">
-                    <label for="word-spacing">Word Spacing</label>
+                    <label for="word-spacing">字间距</label>
                     <input
                       id="word-spacing"
                       min="0"
@@ -281,7 +281,7 @@
                     />
                   </div>
                   <div class="postfix-input" data-postfix="pt">
-                    <label for="letter-spacing">Letter Spacing</label>
+                    <label for="letter-spacing">字符间距</label>
                     <input
                       id="letter-spacing"
                       min="-5"
@@ -295,12 +295,12 @@
 
               <!-- Letter spacing, Paper Margin, Paper Lines, Paper Curvature -->
               <fieldset>
-                <legend>Margin & Line Options</legend>
+                <legend>边距和线条选项</legend>
 
                 <div class="category-grid">
                   <div>
                     <label for="paper-margin-toggle"
-                      >Paper Margin:
+                      >纸边距:
                       <span aria-label="paper margin status" class="status"
                         >on</span
                       >
@@ -319,7 +319,7 @@
 
                   <div>
                     <label for="paper-line-toggle"
-                      >Paper Lines:
+                      >纸线条:
                       <span aria-label="paper line status" class="status"
                         >on</span
                       >
@@ -328,7 +328,7 @@
                       <input
                         aria-checked="true"
                         checked
-                        aria-label="Paper Line Button"
+                        aria-label="线条按钮"
                         id="paper-line-toggle"
                         type="checkbox"
                       />
@@ -339,7 +339,7 @@
                     <!-- Removed option -->
                     <div class="upload-paper-container">
                       <label class="block" for="paper-file"
-                        >Upload Paper Image as Background</label
+                        >上传背景图</label
                       >
                       <input
                         accept=".jpg, .jpeg, .png"
@@ -364,7 +364,7 @@
                   data-testid="generate-image-button"
                   class="button generate-image-button"
                 >
-                  Generate Image
+                  生成手写稿
                 </button>
               </div>
             </div>
